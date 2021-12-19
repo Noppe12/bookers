@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+html {
+    display: block;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+div{
+      display: block;
+}
+
+h1{
+      display: block;
+    font-size: 2em;
+    margin-bottom: 0.67em;
+    margin-top: 0.67em;
+    padding-top: 0px;
+    padding-bottom:  0px;
+    font-weight: bold;
+}
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.notifications {
+  color: green;
+}
+
+table{
+  display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead{
+  display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr{
+  display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th{
+  padding-bottom: 5px;
+}
+
+tbody{
+  display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+h2{
+  display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.form{
+  display: block;
+    margin-top: 0em;
+}
+
+.field{
+  margin-bottom: 10px;
+}
+
+.label{
+  display: block;
+}
+
+.action{
+  margin-bottom: 10px;
+}
+
+.text_area{
+    font-family: monospace;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    padding: 2px;
+}
